@@ -5,64 +5,185 @@
 
 
     "name": "myportfolio",
+
+
     "version": "0.1.0",
+
+
     "private": true,
+
+
     "dependencies": {
+
+
         "@react-icons/all-files": "^4.1.0",
+
+
         "@testing-library/jest-dom": "^5.16.5",
+
+
         "@testing-library/react": "^13.3.0",
+
+
         "@testing-library/user-event": "^13.5.0",
+
+
         "axios": "^0.27.2",
+
+
         "bootstrap": "^5.2.0",
+
+
         "chart.js": "^3.9.1",
+
+
         "jquery": "npm:jQuery@^1.7.4",
+
+
         "jQuery": "^1.7.4",
+
+
         "react": "^18.2.0",
+
+
         "react-chartjs-2": "^4.3.1",
+
+
         "react-dom": "^18.2.0",
+
+
         "react-icons": "^4.4.0",
+
+
         "react-lottie": "^1.2.3",
+
+
         "react-player": "^2.10.1",
+
+
         "react-reveal": "^1.2.2",
+
+
         "react-scripts": "5.0.1",
+
+
         "react-social-icons": "^5.14.0",
+
+
         "react-spring": "^9.5.2",
+
+
         "react-tinder-card": "^1.5.0",
+
+
         "react-tsparticles": "^2.2.3",
+
+
         "tsparticles": "^2.2.3",
+
+
         "typewriter": "^8.0.3",
+
+
         "typewriter-effect": "^2.19.0",
+
+
         "web-vitals": "^2.1.4"
+
+
     },
+
+
     "scripts": {
+
+
         "start": "react-scripts start",
+
+
         "predeploy": "npm run build",
+
+
         "deploy": "gh-pages -d build",
+
+
         "build": "react-scripts build",
+
+
         "test": "react-scripts test",
+
+
         "eject": "react-scripts eject"
+
+
     },
+
+
     "eslintConfig": {
+
+
         "extends": [
+
+
             "react-app",
+
+
             "react-app/jest"
+
+
         ]
+
+
     },
+
+
     "browserslist": {
+
+
         "production": [
+
+
             ">0.2%",
+
+
             "not dead",
+
+
             "not op_mini all"
+
+
         ],
+
+
         "development": [
+
+
             "last 1 chrome version",
+
+
             "last 1 firefox version",
+
+
             "last 1 safari version"
+
+
         ]
+
+
     },
+
+
     "devDependencies": {
+
+
         "gh-pages": "^4.0.0",
+
+
         "react-router-dom": "^6.3.0"
+
+
     }
+
+
 }
+
 
