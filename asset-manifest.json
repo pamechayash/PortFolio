@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/PortFolio/static/css/main.b31b0506.css",
-    "main.js": "/PortFolio/static/js/main.efa04f0e.js",
+    "main.js": "/PortFolio/static/js/main.f07b5e57.js",
     "static/media/mlschool.png": "/PortFolio/static/media/mlschool.46be66fe281628b426b0.png",
     "static/media/about.jpeg": "/PortFolio/static/media/about.002fa020293bbd66aa2c.jpeg",
     "static/media/cv.pdf": "/PortFolio/static/media/cv.2fed2226b0a6581b29fc.pdf",
     "static/media/bgimage.jpeg": "/PortFolio/static/media/bgimage.86faaf22a8b75d656361.jpeg",
     "index.html": "/PortFolio/index.html",
     "main.b31b0506.css.map": "/PortFolio/static/css/main.b31b0506.css.map",
-    "main.efa04f0e.js.map": "/PortFolio/static/js/main.efa04f0e.js.map"
+    "main.f07b5e57.js.map": "/PortFolio/static/js/main.f07b5e57.js.map"
   },
   "entrypoints": [
     "static/css/main.b31b0506.css",
-    "static/js/main.efa04f0e.js"
+    "static/js/main.f07b5e57.js"
   ]
 }
