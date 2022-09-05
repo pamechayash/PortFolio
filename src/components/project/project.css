@@ -1,0 +1,113 @@
+#project{
+   transition: 0.5s;
+    overflow: hidden;
+    margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+   flex-wrap: wrap;
+   background-size:cover;
+   justify-content: center;
+  align-items: center;
+    height: fit-content;
+ gap:8vh;
+}
+
+.projectcard{
+    height:50vh;
+     display:flex;
+  width: fit-content;
+    
+
+     margin: 0px 0px;
+     align-items: center;
+     justify-content: center;
+  
+}
+
+
+.define{
+  width:50vw;
+
+    margin: auto;
+   
+}
+.projbtn{
+ background-color: transparent;
+}
+
+@media(max-width:928px){
+  .define{
+    width:fit-content;
+    font-size: 0.9rem;
+    
+      margin-right: 1px;
+      margin: 0px 0px;
+     
+  }
+  
+}
+
+@media(max-width:870px){
+  .animation{
+   width: fit-content;
+   height: 300px;
+   padding: 0px 0px;
+    transform: scale(0.7);
+    margin-bottom: 5vh;
+  }
+  .define{
+    width: 80vh;
+    margin: 0px auto;
+  }
+  .projectcard{
+    gap:20px;
+    width:   100vw;
+    height: fit-content;
+  }
+
+   #project .projectcard{
+    flex-wrap: wrap;
+    }
+    #project #even .define{
+      order:2;
+      }
+      #project #even .animation{
+        order:1;
+        }
+ 
+     
+     
+       
+
+}
+
+
+@media(max-width:560px){
+.define{
+ 
+  margin: 0px 20px;
+}
+
+}
+@media(max-width:330px){
+  .animation{
+    transform: scale(0.6);
+  }
+  
+  }
+  .projhead::first-letter{
+    color:#4db5ff;
+    font-size: 1.4rem;
+  }
+
+  .projcardOuter{
+    display:flex;
+      flex-direction:row;
+     flex-wrap: nowrap;
+  }
+  .projcardOuter button{
+    width: fit-content;
+    padding:1px 2px;
+ 
+  }
+  

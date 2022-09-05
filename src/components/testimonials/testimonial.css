@@ -1,0 +1,19 @@
+#testimonials{
+    overflow: hidden;
+}
+.achieved{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:397px) {
+    .achieved img{
+        width:95vw !important;
+        height: 50vh !important;
+    }
+  #testimonials h1{
+      font-size: 1.5rem;
+  }
+
+}

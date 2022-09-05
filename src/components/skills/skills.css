@@ -1,0 +1,117 @@
+
+section{
+    height: fit-content;
+padding:0px;
+}
+
+.skillLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+}
+.endanime{
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#skills{
+ background-color:black;
+  
+        overflow:hidden;
+        transition:0.6s;
+        display:flex;
+        flex-direction:column
+}
+
+.cont1{
+
+    display:flex;
+   
+    overflow: hidden;
+    width:100vw;
+    height: fit-content;
+    gap:2px;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+.skillcenter{
+    width: fit-content;
+    height: fit-content;
+    padding:0;
+    margin:0;
+  
+}
+.skillRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+.background{
+    display:none;
+}
+@media (max-width:892px){
+
+    .skillcenter{
+        display:none
+       
+     }
+
+}
+
+@media (max-width:783px) {
+
+    .skillcenter{
+       display:none
+      
+    }
+   
+     h3::first-letter{
+   
+        color:#4db5ff
+        }
+}
+@media (max-width:502px) {
+    h3{
+    font-size: 1rem;
+    }
+}
+@media (max-width:392px) {
+  .skillanime{
+      display: none;
+  }
+  h3{
+      margin:7px;
+    font-size: 1rem;
+    }
+    h3::first-letter{
+   
+      color:#4db5ff
+      }
+
+}
+.head{
+    display:flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:1px;
+}
+.heading{
+    margin-bottom: 0px;
+  height:50px;
+}
+.underline{
+   
+    height: 3px;
+    background-color: aliceblue;
+    display: flex;
+ transition: 0.8s;
+}

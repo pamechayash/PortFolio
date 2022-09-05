@@ -1,0 +1,132 @@
+#section{
+	height:100vh;
+}
+h1{
+
+	color:#4db5ff;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 10vh;
+}
+.maincontainer {
+  border-radius: 2%;
+	background: linear-gradient(-45deg, #4db5ff, rgba(238, 119, 82,.5),rgb(31, 31, 56), rgba(154, 195, 154,.5), rgb(44, 44, 108), rgba(35, 166, 213,.5), rgba(35, 213, 171,.5));
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	height: fit-content;
+	width: 80vw;
+	margin: 0 auto;
+	display:flex;
+	flex-direction: column;
+	gap:20px;
+	align-items: center;
+	justify-content: center;
+    padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.eduCard{
+
+   line-height: 40px;
+    width: 60vw;
+	background: linear-gradient(-45deg, #4db5ff, rgba(238, 119, 82,.5),rgb(31, 31, 56), rgba(154, 195, 154,.5), rgb(44, 44, 108), rgba(35, 166, 213,.5), rgba(35, 213, 171,.5));
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+
+    padding: 0.7rem 1.7rem;
+  height: fit-content;
+  
+	
+  
+  border-radius: 1rem;
+backdrop-filter: blur(10px);
+
+}
+
+
+
+
+.subtag{
+	white-space: nowrap;
+	line-height: 20px;
+margin:6px;
+	color:white;
+	border: 1px solid black;
+
+	padding: 0.1rem 0.4rem;
+     width: fit-content;
+	
+	  position:sticky;
+	  
+	  bottom: 1rem;
+	  left: 1rem;
+
+	border-radius: 1rem;
+  backdrop-filter: blur(30px);
+ 
+}
+.tags{
+
+display: flex;
+flex-wrap: wrap;
+
+}
+@media (max-width:801px){
+	.eduCard{
+		
+		 width: 90vw;
+		
+		 
+	}
+	.maincontainer{
+		width: 100vw;
+	}
+
+}
+@media (max-width:596px){
+	.eduCard{
+		
+		 width: 90vw;
+		
+		 
+	}
+	.maincontainer{
+		width: 100vw;
+	}
+	.subtag{
+		display: none;
+	}
+
+}
+@media (max-width:390px){
+	.eduCard{
+		position: inherit;
+		padding:10px
+	}
+	
+}
+@media (max-width:322px){
+	.eduCard{
+		font-size:0.8rem;
+		line-height: 20px;
+	}
+	
+}
+@media(min-width: 956px){
+	.eduCard{
+		position: sticky;
+		top:20px;
+	}
+}

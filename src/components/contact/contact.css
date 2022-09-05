@@ -1,0 +1,133 @@
+
+.contactCont{
+height:fit-content;
+width: 95vw;
+padding: 10px;
+gap:10vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+margin: 0px auto;
+border-radius: 3%;
+    background-image: url(https://images.unsplash.com/photo-1545164027-0d5617cef5fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1750&q=80);
+    
+   /* filter: blur(0.2px); */
+ 
+   animation: back  20s infinite  ;
+}
+.contactContainer{
+      display: flex;
+      flex-direction: column;
+      
+}
+.ContactBox{
+     
+      display: flex;
+      
+      
+      align-items: center;
+      justify-content: center;
+      width: fit-content;
+      gap:15px;
+     color: white;
+      font-size: 1.1rem;
+      margin: 5px;
+   border: 2px solid white;
+      background: rgba(0,0,0, 0.5);
+      border-radius: 8%;
+      padding: 0.7rem 1.7rem;
+    
+     
+
+
+
+ 
+}
+.contactMeans{
+      display: flex;
+   
+      align-items:center;
+      justify-content: center;
+      width:fit-content;
+    white-space: nowrap;
+
+}
+
+
+@keyframes back {
+ from{ 
+  
+         background-size: 100% 100%;
+   
+      }
+to{
+      
+        background-size: 200% 200%;
+       
+      }
+}
+.contactForm{
+      
+      display: flex;
+      flex-direction: column;
+      gap:10px;
+}
+.contactForm input[type="email"]{
+background-color: black;
+border: 2px solid white;
+border-radius: 5%;
+padding: 1em 1em;
+width:50vw;
+color: white;
+}
+.contactForm textarea{
+      background-color: black;
+      border: 2px solid white;
+      border-radius: 5%;
+      padding: 1em 1em;
+      width:50vw;
+height:30vh;
+color: white;
+      
+      }
+      .contactForm button{
+  background-color: transparent;
+  color:white;
+  width:fit-content;
+  cursor: pointer;
+
+      }   
+      .contactForm button:hover{
+            border: 2px solid white;
+            
+                }   
+
+@media (max-width: 649px){
+      .contactMeans{
+            flex-direction: column;
+      
+      
+      }
+}
+@media (max-width: 359px){
+      .contactMeans{
+           font-size: 0.6rem;
+      
+      
+      }
+      .ContactBox{
+            font-size: 0.8rem;
+            width:80vw;
+            flex-direction: column;
+      }
+    
+}
+@media (max-width: 280px){
+      .contactMeans{
+           font-size: 0.4rem;
+      
+      
+      }
+      
+}

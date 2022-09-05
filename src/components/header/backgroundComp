@@ -1,0 +1,9 @@
+import particlesConfig from "./particles-config"
+import Particles from "react-tsparticles"
+export default function ParticleComp(){
+
+return <Particles params={particlesConfig}/>
+
+
+
+}
