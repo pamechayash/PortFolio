@@ -4,24 +4,34 @@ const info=[
    orientation:"left" ,
    anime:"chat",
    type:"Video",
-   video:"https://www.youtube.com/watch?v=pWZ4Wqm3fxg&t=10s",
-   title:"CHAT ANALYSER || Data Analysis skills and Python(Streamlit lib)",
-    content:"A Web Application made with Streamlit,it gives Proper analysis of whatsapp  one-one or group chats.it takes chat file which you can download from whatsapp, and gives you freedom to switch over single person analysis or groupChat analysis.",
-  git:"https://github.com/pamechayash/ChatAnalysisProject-DataScience"
+   video:"https://www.youtube.com/watch?v=elWyGWDCdBA",
+   title:"MACHINE LEARNING ALGORITHM ANALYSER TOOL | React.js , Flask , Python( ML ) ",
+    content:"it makes MACHINE LEARNING EASY To Understand. enables users to play with different algorithms on their data. it runs complex Machine Learning Algorithms with a click without a single line of code.gives all important classification and regression metrics. provides proper visualisations of how accuracy variates with hyperparameters. it enables users to change different hyperparameters and Run algorithms again and again.",
+  git:"https://github.com/pamechayash/MachineLearningAlgorithm-PlayGroundTool-Makes-ML-Easy"
+},
+{
+  id:"even",
+  orientation:"right",
+  anime:"wheather",
+  title:"CLIMA || Modile App",
+  type:"Video",
+  video:"https://www.youtube.com/shorts/Ofvl1GV50iU",
+   content:"Made with Flutter, it gives live realtime weather information of our live loaction and you can also get information by city names, more precisely it gives realtime temperature , windspeed ,humidity and visibility with very effective UI experience",
+git:"https://github.com/pamechayash/ClimateApp"
 },
   {
-   id:"even",
-   orientation:"right",
-   anime:"wheather",
-   title:"CLIMA || Modile App",
-   type:"Video",
+   id:"odd",
+   orientation:"left",
+   anime:"bank",
+   title:"BANK MARKETING RESPONSE PREDICT | MACHINE LEARNING | PYTHON",
+
    video:"https://www.youtube.com/shorts/Ofvl1GV50iU",
-    content:"Made with Flutter, it gives live realtime weather information of our live loaction and you can also get information by city names, more precisely it gives realtime temperature , windspeed ,humidity and visibility with very effective UI experience",
- git:"https://github.com/pamechayash/ClimateApp"
+    content:"Worked on data of more than ten thousand and many features like age , balance and many more ",
+ git:"https://github.com/pamechayash/Bank-marketing-response-predict.git"
 },
   {
-   id:"odd" ,
-   orientation:"left" ,
+   id:"even" ,
+   orientation:"right" ,
    anime:"covid",
    type:"Video",
    git:"https://github.com/pamechayash/covi",
@@ -31,10 +41,11 @@ const info=[
  
 },
   {
-   id:"even",
-   orientation:"right",
+   id:"odd",
+   orientation:"left",
    anime:"keeper",
    type:"Demo",
+   video:"https://630938fa97190f11a7f6ec01--startling-platypus-74cf2b.netlify.app",
    title:"KEEPER Have a note || Web App",
     content:"made with react.js and other WebDev concepts like HTML/CSS, in this app user can keep a note of things and use it. it mainly focuses on providing better visualistion of list of notes So that user can refer them easily when needed.----------->    instructions -> just write your work in box and press add button then to remove work press little red button below every work added",
   git:"https://github.com/pamechayash/keeper"

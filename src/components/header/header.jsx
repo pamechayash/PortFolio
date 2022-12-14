@@ -69,7 +69,7 @@ color:"#4db5ff"
 } >Yash Pamecha</h1>
 
 
-<small style={ {color: "rgba(255,255,255,0.4)"}}>Full stack Web Developer | Doing Machine Learning  <br/>proficient in Problem Solving | Flutter Developer</small>
+<small style={ {color: "rgba(255,255,255,0.4)"}}>Full stack Web Developer | Machine Learning  <br/>proficient in Problem Solving</small>
 <div className="btnspace">
 <Button name="normal Download"
 

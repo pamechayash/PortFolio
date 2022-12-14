@@ -3,7 +3,9 @@ import data1 from './chat.json'
 import data2 from './wheather.json'
 import data3 from './covid.json'
 import data4 from './keeper.json'
+import data6 from './bank.json'
 import data5 from './coming.json'
+
 export default function GetAnimation(props){
 let data="";
 console.log(props.type)
@@ -23,7 +25,11 @@ if(props.type=="keeper")
 {
     data=data4;
 }
- if(props.type=="center")
+ if(props.type=="bank")
+{
+    data=data6;
+}
+if(props.type=="center")
 {
     data=data5;
 }
