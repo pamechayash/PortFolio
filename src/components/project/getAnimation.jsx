@@ -5,6 +5,7 @@ import data3 from './covid.json'
 import data4 from './keeper.json'
 import data6 from './bank.json'
 import data5 from './coming.json'
+import data7 from './tractorMoving.json'
 
 export default function GetAnimation(props){
 let data="";
@@ -33,6 +34,9 @@ if(props.type=="center")
 {
     data=data5;
 }
+if(props.type=="tractorMoving"){
+    data=data7;
+}
 
 const defaultOptions={
     loop:true,
@@ -47,19 +51,19 @@ const defaultOptions={
     return <Lottie 
     options={defaultOptions}
    
-    style={{transform:"scale(0.8) ",
+    style={{transform:"scale(0.5) ",
 
 }}
-    height={500}
-   width={500}/>
+    height={600}
+   width={600}/>
    else
    return <Lottie 
    options={defaultOptions}
   
-   style={{transform:"scale(0.8) ",
+   style={{transform:"scale(0.6) ",
 
 }}
-   height={500}
+   height={400}
   width={400}/>
 
 }

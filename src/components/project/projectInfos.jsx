@@ -12,6 +12,17 @@ const info=[
 {
   id:"even",
   orientation:"right",
+  anime:"tractorMoving",
+  title:"AGROVISION | [JWT, bcrypt]-Auth, Reactjs, Nodejs, MongoDB, Flask(basic), Machine Learning, Deep Learning",
+  type:"Video",
+  video:"https://github.com/pamechayash/AGROvision-SmartFarmingSystem/tree/main",
+   content:"Crop recommendation according to soil and weather information provided (99.4 % accuracy achieved),  Suitable Fertiliser recommendation according to crop type , soil and weather information(99.9% ACCURACY),  Disease prediction, cause analysis and solution recommendation by image of infected leaf(96% ACCURACY),  Provide Platform to help farmers, gives realtime weather information about their current locations",
+git:"https://github.com/pamechayash/AGROvision-SmartFarmingSystem/tree/main"
+},
+
+{
+  id:"odd",
+  orientation:"left",
   anime:"wheather",
   title:"CLIMA || Modile App",
   type:"Video",
@@ -20,8 +31,8 @@ const info=[
 git:"https://github.com/pamechayash/ClimateApp"
 },
   {
-   id:"odd",
-   orientation:"left",
+   id:"even",
+   orientation:"right",
    anime:"bank",
    title:"BANK MARKETING RESPONSE PREDICT | MACHINE LEARNING | PYTHON",
 
@@ -30,8 +41,8 @@ git:"https://github.com/pamechayash/ClimateApp"
  git:"https://github.com/pamechayash/Bank-marketing-response-predict.git"
 },
   {
-   id:"even" ,
-   orientation:"right" ,
+   id:"odd" ,
+   orientation:"left" ,
    anime:"covid",
    type:"Video",
    git:"https://github.com/pamechayash/covi",
@@ -41,8 +52,8 @@ git:"https://github.com/pamechayash/ClimateApp"
  
 },
   {
-   id:"odd",
-   orientation:"left",
+   id:"even",
+   orientation:"right",
    anime:"keeper",
    type:"Demo",
    video:"https://630938fa97190f11a7f6ec01--startling-platypus-74cf2b.netlify.app",
