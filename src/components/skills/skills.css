@@ -82,6 +82,10 @@ padding:0px;
     h3{
     font-size: 1rem;
     }
+    .skillanime{
+        display: none;
+    }
+
 }
 @media (max-width:392px) {
   .skillanime{
