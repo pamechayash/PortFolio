@@ -132,6 +132,7 @@ color: greenyellow !important;
    
     #about{
         height:fit-content;
+        margin-top: 200px;
     }
    .card{
        width:1em;
