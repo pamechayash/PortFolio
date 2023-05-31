@@ -67,7 +67,9 @@ padding:0px;
 }
 
 @media (max-width:783px) {
-
+    .skillanime{
+        display: none;
+    }
     .skillcenter{
        display:none
       
@@ -85,6 +87,7 @@ padding:0px;
     .skillanime{
         display: none;
     }
+    
 
 }
 @media (max-width:392px) {
