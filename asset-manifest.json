@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/PortFolio/static/css/main.b40bba11.css",
-    "main.js": "/PortFolio/static/js/main.305b07e9.js",
+    "main.css": "/PortFolio/static/css/main.300e8bf1.css",
+    "main.js": "/PortFolio/static/js/main.8c2b85da.js",
     "static/media/mlschool.png": "/PortFolio/static/media/mlschool.46be66fe281628b426b0.png",
     "static/media/about.jpeg": "/PortFolio/static/media/about.002fa020293bbd66aa2c.jpeg",
     "static/media/bgimage.jpeg": "/PortFolio/static/media/bgimage.86faaf22a8b75d656361.jpeg",
-    "static/media/cv.pdf": "/PortFolio/static/media/cv.04c3fbaf12e2301cc6f9.pdf",
+    "static/media/cv.pdf": "/PortFolio/static/media/cv.c83d8bd26303540919b3.pdf",
     "index.html": "/PortFolio/index.html",
-    "main.b40bba11.css.map": "/PortFolio/static/css/main.b40bba11.css.map",
-    "main.305b07e9.js.map": "/PortFolio/static/js/main.305b07e9.js.map"
+    "main.300e8bf1.css.map": "/PortFolio/static/css/main.300e8bf1.css.map",
+    "main.8c2b85da.js.map": "/PortFolio/static/js/main.8c2b85da.js.map"
   },
   "entrypoints": [
-    "static/css/main.b40bba11.css",
-    "static/js/main.305b07e9.js"
+    "static/css/main.300e8bf1.css",
+    "static/js/main.8c2b85da.js"
   ]
 }
